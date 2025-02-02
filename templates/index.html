@@ -1,16 +1,63 @@
-
-{% extends 'base.html' %}
-{% block content %}
-<h1>Ali Asghar - Cloud & DevOps Engineer</h1>
-<p>🚀 Embracing the DevOps Journey with 7 Years in IT! 🌐 </p>
-
-</p>After 7 years of hands-on experience as a Systems Administrator and Cloud Engineer, I'm thrilled to be diving deeper into DevOps! This learning journey isn’t just about gaining new technical skills; it's about evolving my mindset to bridge the gap between development and operations.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
     
-    What excites me the most about DevOps? It’s the culture of collaboration and continuous improvement. In a field where automation, CI/CD, and cloud infrastructure are at the forefront, DevOps feels like the perfect next step in my IT career.
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md py-4">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <a href="#" class="text-2xl font-bold text-blue-600">My Portfolio</a>
+            <ul class="flex space-x-6 text-lg">
+                <li><a href="/" class="hover:text-blue-500 transition">Home</a></li>
+                <li><a href="/about" class="hover:text-blue-500 transition">About</a></li>
+                <li><a href="/projects" class="hover:text-blue-500 transition">Projects</a></li>
+                <li><a href="/contact" class="hover:text-blue-500 transition">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
     
-    💼 Whether it’s setting up streamlined pipelines or fostering a culture of agility, I’m eager to bring my experience in cloud and systems management into the DevOps world and to learn from this amazing community.
+    <!-- Hero Section -->
+    <section class="text-center py-24 bg-gradient-to-r from-blue-500 to-purple-500 text-white">
+        <h1 class="text-6xl font-extrabold">Welcome to Ali Asghar's Portfolio</h1>
+        <p class="text-xl mt-4">Exploring Technology, Cloud, and DevOps solutions</p>
+        <a href="/projects" class="mt-6 inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">View My Work</a>
+    </section>
     
-    📢 To my fellow DevOps learners and seasoned professionals, I’d love to hear your experiences or tips on the DevOps journey! Let's connect, share insights, and grow together!"
+    <!-- Main Content -->
+    <div class="container mx-auto my-12 px-6">
+        <h2 class="text-4xl font-bold text-center mb-8">Featured Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 shadow-lg rounded-lg transition hover:shadow-2xl">
+                <h3 class="text-2xl font-semibold">Entra ID Backup</h3>
+                <p class="text-gray-600 mt-2">Setup Azure DevOps pipeline to take Entra ID backup and upload it S3 bucket.</p>
+            </div>
+            <div class="bg-white p-8 shadow-lg rounded-lg transition hover:shadow-2xl">
+                <h3 class="text-2xl font-semibold">Terraform Pipeline</h3>
+                <p class="text-gray-600 mt-2">Created Terraform pipeline in Azure DevOps to provision infrastructure using Terraform</p>
+            </div>
+            <div class="bg-white p-8 shadow-lg rounded-lg transition hover:shadow-2xl">
+                <h3 class="text-2xl font-semibold">Workloads Migration</h3>
+                <p class="text-gray-600 mt-2">Migrated on-premises workload to Azure</p>
+            </div>
+            <div class="bg-white p-8 shadow-lg rounded-lg transition hover:shadow-2xl">
+                <h3 class="text-2xl font-semibold">Azure Virtual Desktop</h3>
+                <p class="text-gray-600 mt-2">Setup and configure Azure Virtual Desktop from scratch</p>
+            </div>
+            <div class="bg-white p-8 shadow-lg rounded-lg transition hover:shadow-2xl">
+                <h3 class="text-2xl font-semibold">Exchange Migration</h3>
+                <p class="text-gray-600 mt-2">Successfully migrated 1700 mailboxes from Exchange Server 2010 to Exchange Server 2019 with zero downtime</p>
+            </div>
+        </div>
+    </div>
     
-    </p>
-{% endblock %}
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center py-6 mt-12">
+        <p class="text-lg">&copy; 2025 My Portfolio | Crafted with 💙</p>
+    </footer>
+</body>
+</html>

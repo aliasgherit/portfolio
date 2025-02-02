@@ -1,6 +1,58 @@
-
 {% extends 'base.html' %}
+
 {% block content %}
-<h1>About Me</h1>
-<p>Details about your background and experience.</p>
+<!-- Main Container -->
+<div class="container mx-auto my-10 px-6 max-w-4xl">
+    <!-- Page Title Section -->
+    <section>
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-8">About Me</h1>
+    </section>
+
+    <!-- Content Section -->
+    <section class="bg-white shadow-lg rounded-lg p-8">
+        <!-- Introduction Paragraph -->
+        <div class="mb-8">
+            <p class="text-lg text-gray-700 leading-relaxed">
+                I am a <span class="font-semibold text-blue-500">Microsoft-certified Cloud & DevOps Engineer</span> with 
+                <span class="font-semibold">7+ years of experience</span> in cloud infrastructure, IT security, and system administration. 
+                Passionate about building scalable, secure, and cost-efficient solutions, I thrive in dynamic environments 
+                where innovation and collaboration drive success.
+            </p>
+        </div>
+
+        <!-- Key Achievements Section -->
+        <div class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Key Achievements</h2>
+            <ul class="space-y-3 list-none pl-0">
+                <li class="flex items-start">
+                    <span class="text-green-500 mr-3">✅</span>
+                    <span>Expertise in <strong>Azure, AWS, and DevOps</strong> solutions for <strong>scalability, security, and cost efficiency</strong>.</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-green-500 mr-3">✅</span>
+                    <span>Successfully led <strong>cloud migration projects</strong>, reducing cloud costs by <strong>30%</strong>.</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-green-500 mr-3">✅</span>
+                    <span>Improved IT security scores by <strong>40%</strong> through optimized security protocols and best practices.</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-green-500 mr-3">✅</span>
+                    <span>Skilled in <strong>automation, troubleshooting, and performance optimization</strong> to enhance system reliability.</span>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-green-500 mr-3">✅</span>
+                    <span>Strong communication and leadership experience in <strong>enterprise environments with 56,000+ users</strong>.</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Call to Action Section -->
+        <div class="mt-8 text-center">
+            <a href="#contact" class="inline-block bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition duration-300">
+                Let's Connect
+            </a>
+        </div>
+    </section>
+</div>
 {% endblock %}
